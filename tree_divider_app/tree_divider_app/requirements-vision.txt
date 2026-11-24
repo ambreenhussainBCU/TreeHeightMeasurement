@@ -1,0 +1,4 @@
+# Extra packages for tools/extract_reading.py
+opencv-python>=4.8
+numpy>=1.24
+pytesseract>=0.3.10   # also install the Tesseract program itself (see README)

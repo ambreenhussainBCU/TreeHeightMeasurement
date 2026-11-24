@@ -1,0 +1,6 @@
+{
+  // Use the private Python environment made by "Setup (Windows).bat" / setup_mac_linux.sh
+  "python.defaultInterpreterPath": "${workspaceFolder}/venv",
+  "python.testing.pytestEnabled": true,
+  "python.testing.pytestArgs": ["tests"]
+}

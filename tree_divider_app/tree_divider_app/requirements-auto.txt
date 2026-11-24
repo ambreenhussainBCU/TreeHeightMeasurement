@@ -1,0 +1,6 @@
+# Extra packages for the automatic (zero-shot) measurement prototype: tools/auto_measure.py
+# No PyTorch and no graphics card needed. Models (~335 MB) download on first run.
+onnxruntime>=1.17
+tokenizers>=0.15
+opencv-python>=4.8
+numpy>=1.24

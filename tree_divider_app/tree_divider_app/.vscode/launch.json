@@ -1,0 +1,48 @@
+{
+  // Pick one of these in VS Code's "Run and Debug" panel (Ctrl+Shift+D), then press F5.
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Tree Divider app",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/main.py",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Auto measure a photo",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/tools/auto_measure.py",
+      "args": ["${input:photo}", "--banner-words", "${input:bannerWords}",
+               "--out", "${workspaceFolder}/auto_results", "--txt", "${workspaceFolder}/auto_results/auto-readings.txt"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Read the reading from a saved picture",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/tools/extract_reading.py",
+      "args": ["${input:photo}"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Run all tests",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "pytest",
+      "args": ["-q"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    }
+  ],
+  "inputs": [
+    {"id": "photo", "type": "promptString",
+     "description": "Full path of the photo or folder (tip: right-click the file in Explorer > Copy as path, then remove the quotes)"},
+    {"id": "bannerWords", "type": "promptString", "default": "banner",
+     "description": "What the banner looks like (e.g. white board, orange board)"}
+  ]
+}

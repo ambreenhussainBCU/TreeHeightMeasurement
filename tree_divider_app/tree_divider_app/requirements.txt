@@ -1,0 +1,5 @@
+kivy[base]>=2.3
+pillow>=10.1
+opencv-python>=4.8   # webcam access for Kivy on Windows / Mac / Linux
+plyer>=2.1           # system file picker (and the Gallery picker on Android)
+pytest>=8            # only needed to run the tests

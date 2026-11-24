@@ -1,0 +1,8 @@
+Tree Divider readings (tab-separated: opens in Excel or any text editor)
+Date	Time	Picture	Parts	Banner reading	Banner height (m)	Tree height (m)	Other readings (reading = height above base)
+2026-10-10	14:54:33	tree-divider-height-9_11m-reading-10_98-20261010-145433.jpg	100	10.98	1.00	9.11	
+2026-10-15	10:45:42	tree-divider-height-8_69m-reading-11_51-20261015-104542.jpg	100	11.51	1.00	8.69	
+2026-10-15	10:48:00	tree-divider-height-6_51m-reading-15_36-20261015-104800.jpg	100	15.36	1.00	6.51	
+2026-10-15	10:49:26	tree-divider-height-10_04m-reading-9_96-20261015-104926.jpg	100	9.96	1.00	10.04	
+2026-10-15	10:50:57	tree-divider-height-10_48m-reading-9_54-20261015-105057.jpg	100	9.54	1.00	10.48	
+2026-10-15	10:51:06	tree-divider-height-10_48m-reading-9_54-20261015-105106.jpg	100	9.54	1.00	10.48	

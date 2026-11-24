@@ -1,0 +1,9 @@
+Photo	Measured	Height (m)	Object (px)	Banner (px)	Notes
+1000059636.jpg	tree	9.7	989	102	
+1000059637.jpg	pole	6.48	745	115	Pole top hidden by chimney/wires: detected top too low; true top gives about 7.1 m. Correct with the top slider.
+1000059638.jpg	tree	10.37	985	95	
+1000059639.jpg	lamp post	6.24	923	148	Same lamp post as 1000059640
+1000059640.jpg	lamp post	6.31	1066	169	Same lamp post as 1000059639
+1000059641.jpg	tree	10.89	1045	96	Same birch as 642 and 643
+1000059642.jpg	tree	11.26	1025	91	Same birch as 641 and 643
+1000059643.jpg	tree	10.97	1009	92	Same birch as 641 and 642
